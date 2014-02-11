@@ -5,7 +5,7 @@ To set up an effect NTP monlist lab, you will need the following:
 *	CLOSED network
 *	NTP server with ~500 or so NTP clients. Packets from fake clients can be preloaded to generate large monlist responses.
 	*	Should make a script to preload an NTP server with random requests from random client IPs
-*	Attacker on a 100mbps port (smaller port than reflector or victim)
-*	Reflector on a 1000mbps port
-*	Victim on a 1000mbps port (to measure traffic as accurately as possible)
+*	Attacker on a 100 or 1000 Mbps port (smaller port than reflector or victim)
+*	Reflector on a 1000 Mbps or 10 Gbps port
+*	Victim also on a 1000 Mbps or 10 Gbps port (to measure traffic as accurately as possible)
 

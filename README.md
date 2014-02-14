@@ -15,7 +15,12 @@ Uses spoofed packets to request large responses from a recursive/cacheing DNS se
 
 Uses spoofed packets to request monlist from affected NTP servers.
 
-*	Uses payload from https://github.com/sensepost/ntp_monlist
+## snmp.py ##
+
+Uses spoofed packets to make large snmpbulk requests from a server.
+
+*	Uses logic from http://www.prolexic.com/kcresources/white-paper/white-paper-snmp-ntp-chargen-reflection-attacks-drdos/analysis-of-drdos-dns-reflection-white-paper_i.html
+*	Uses improved request from http://www.nothink.org/misc/snmp_reflected.php
 
 ## Disclaimer ##
 

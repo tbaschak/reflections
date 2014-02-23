@@ -7,15 +7,15 @@ Various reflected attacks used in DDoS. Simple proof of concepts for lab demos.
 *	Python
 *	Scapy
 
-## dns.py ##
+## dns.py / dns6.py ##
 
 Uses spoofed packets to request large responses from a recursive/cacheing DNS server.
 
-## ntp.py ##
+## ntp.py / ntp6.py ##
 
 Uses spoofed packets to request monlist from affected NTP servers.
 
-## snmp.py ##
+## snmp.py / snmp6.py ##
 
 Uses spoofed packets to make large snmpbulk requests from a server.
 

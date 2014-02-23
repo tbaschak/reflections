@@ -1,6 +1,6 @@
 from scapy.all import *
-fakesrc = 'x.x.x.x'
-server = 'x.x.x.x'
+fakesrc = 'x:x:x::x'
+server = 'x:x:x::x'
 device = 'xxx'
 snmpver = 'v2c'
 snmpcomm = 'public'

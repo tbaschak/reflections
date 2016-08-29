@@ -5,7 +5,7 @@ Various reflected attacks used in DDoS. Simple proof of concepts for lab demos.
 ## Requirements ##
 
 *	Python
-*	Scapy
+*	Scapy (2.3.x)
 
 ## dns.py / dns6.py ##
 
